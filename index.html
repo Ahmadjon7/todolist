@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDNJS link to  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font link to  -->
+    <link rel="stylesheet" href="./CSS/fonts.css">
+    <!-- Bootstrap link to  -->
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <!-- CSS link to  -->
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper-section">
+        <div class="wrapper-box">
+            <form class="wrapper-form" id="wrapper-form">
+                <p class="text-danger text-deker"></p>
+                <label class="wrapper-label">
+                    <input type="text" class="wrapper-input form-control" id="wrapper-input" placeholder="Enter To Do" autocomplete="off" minlength="3">
+                    <i class="fa fa-xmark" id="wrapper-mark"></i>
+                </label>
+                <button class="btn-success btn" id="btn-add" type="submit">Creat</button>
+            </form>
+            <button  class="btn btn-danger btn-delet ms-3" id="btn-delet">Delet All</button>
+        </div>
+        <ul class="intro-list mt-3">
+            
+        </ul>
+    </div>
+</body>
+<!-- Js to link  -->
+<script src="./JS/utils.js"></script>
+<script src="./JS/app.js"></script>
+</html>
